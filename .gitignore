@@ -1,0 +1,4 @@
+.idea/
+node_modules
+dist
+require-js/js/vendor/libs-for-test/*.js
