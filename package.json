@@ -7,7 +7,8 @@
     "start": "cross-env NODE_ENV=development webpack server --mode development --open --hot",
     "start:host": "cross-env NODE_ENV=development webpack server --host 192.168.0.101 --mode development --open --hot",
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "build:grid": "node smart-grid.js && sass-migrator division src/**/*.scss"
+    "build:grid": "node smart-grid.js && sass-migrator division src/**/*.scss",
+    "get-local-ip": "node host-ip.js"
   },
   "author": "webster6667",
   "license": "MIT",

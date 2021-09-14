@@ -48,4 +48,10 @@ npm i
       
     * Fixed problem
       * react duplication 
-      * cors -                  
+      * cors -  
+      
+### Start on wifi ip
+
+* npm run get-local-ip  
+* add ip after **--host** in package.json > scripts > "start:host"
+* run `npm run start:host`                      
